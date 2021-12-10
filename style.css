@@ -108,5 +108,24 @@ footer {
 
   /* 404 */
 
+  .center-404 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+
+  .center-404 .img-1 {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+
 
   
