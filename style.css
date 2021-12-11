@@ -6,6 +6,7 @@ body {
     margin: 0; padding: 0;
     font-family: 'Open Sans';
     text-decoration: none;
+    line-height: 1.6;
 }
 
 header {
@@ -128,4 +129,49 @@ footer {
   }
 
 
-  
+  /* about */
+
+
+
+  .about-row-1 {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    justify-content: space-around;
+  }
+
+  .about-txt-1 {
+    color: #F8F8F2;
+    font-family: "Open Sans";
+    max-width: 800px;
+  }
+
+  h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 38px;
+  }
+
+  .about-txt-1 p {
+    font-size: 18px;
+  }
+
+  .about-row-2 {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    justify-content: space-around;
+  }
+
+  .about-txt-2 {
+    color: #F8F8F2;
+    font-family: "Open Sans";
+    max-width: 800px;
+  }
+
+  .about-txt-2 p {
+      font-size: 18px;
+    }
+
+  .about-row-2 img {
+      max-width: 30%;
+    }
