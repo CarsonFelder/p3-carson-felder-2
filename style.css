@@ -25,13 +25,13 @@ nav {
    align-items: center;
 }
 
-li {
+.nav li {
     display: inline;
     text-decoration: none;
     padding: 0px 60px;
 }
 
-li a {
+.nav li a {
     text-decoration: none;
     color: #282A36;
 }
@@ -65,12 +65,17 @@ footer {
 
   .footer-color {
       color: #F8F8F2;
-      font-size: 17px;   
+      font-size: 17px;  
+      text-decoration: none; 
   }
 
- .align-right {
-    float: right;  
 
+
+ .align-right li {
+    float: right;  
+    display: inline;
+    text-decoration: none;
+    padding: 0px 60px;
 }
 
 
