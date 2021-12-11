@@ -180,3 +180,52 @@ footer {
   .about-row-2 img {
       max-width: 30%;
     }
+
+
+
+/* Usages */
+
+.cards {
+  /* justify-content: space-between; */
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  color: #F8F8F2;
+  font-size: 18px;
+  background-color: #44475A;
+  padding: 200px;
+  border-radius: 20px;
+  border: 2px solid #D59D66;
+}
+
+.col {
+  display: flex;
+  /* align-items: center; */
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.copy {
+  /* background-color: #43484E; */
+  max-height: 100px;
+  min-width: 400px;
+  padding: 30px 20px;
+  /* border-radius: 20px;
+  border: 2px solid #D59D66; */
+}
+
+.col img {
+  max-width: 300px;
+}
+
+main {
+  min-height: 2000px;
+}
+
+.svg-icon {
+  
+}
